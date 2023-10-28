@@ -1,0 +1,144 @@
+
+/* For Desktop */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: bisque;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container {
+    height: 30rem;
+    width: 640px;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+}
+.main1 {
+    display: flex;
+    width: 320px;
+    height: auto;
+}
+.img2 {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.img1 {
+    display: none;
+}
+.main2 {
+    padding: 25px 50px;
+    display: flex;
+    width: 320px;
+    height: auto;
+    flex-direction: column;
+}
+.main2 .p1 {
+    letter-spacing: 7px;
+    font-size: 12px;
+}
+.main2 h2 {
+    font-family: sans;
+    font-weight: bold;
+    font-size: 40px;
+    word-spacing: -5px;
+    line-height: 35px;
+}
+.main2 .p2 {
+    line-height: 25px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.main2 .h2 {
+    color: rgb(29, 107, 29);
+}
+.main2 .h5 {
+    color: gray;
+
+}
+.main2 .im {
+    display: flex;
+    flex-direction: row;
+}
+.main2 .im h5 {
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+    font-size: 15px;
+    text-decoration-line: line-through;
+}
+button {
+    color: white;
+    background-color: rgb(29, 107, 29);
+    border-radius: 7px;
+    padding: 13px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.main-containermobile {
+    display: none;
+}
+
+
+
+
+/* For Mobile */
+
+@media (max-width: 640px) {
+    body {
+        background-color: bisque;
+        display: flex;
+        padding: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-container {
+        display: none;
+    }
+    .main-containermobile {
+        display: flex;
+        background-color: white;
+        border-radius: 15px;
+        flex-direction: column;
+    }
+    img {
+        width: 335px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .main3 {
+        display: flex;
+    }
+    .main4 {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .main4 h1,h2 {
+        font-family: sans;
+    }
+    .main4 .im2 {
+        display: flex;
+        flex-direction: row;
+    }
+    .main4 .im2 .h2 {
+        color: green;
+    }
+    .main4 .im2 .h5 {
+        display: flex;
+        align-items: center;
+        padding-left: 22px;
+        font-size: 15px;
+        text-decoration-line: line-through;
+    }
+    
+}
